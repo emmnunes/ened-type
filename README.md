@@ -16,3 +16,8 @@ Aplicação de meteorologia
 Programa do ENED
 
 ![/schedule](https://dl.dropboxusercontent.com/s/toj9j0hnb0aiash/Screenshot%202016-03-20%2014.05.44.png?dl=0 "/schedule")
+
+## Exercício B
+Artigo de opinião
+
+![/news](https://dl.dropboxusercontent.com/s/5btzpw293hxzvru/Screenshot%202016-03-20%2016.40.06.png?dl=0 "/news")

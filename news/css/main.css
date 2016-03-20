@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+  html body {
+    font-size: 1.6rem;
+    /* 14px */
+    padding: 2rem 6rem; }
+
+header .app-name {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem; }
+
+article {
+  width: 80%;
+  max-width: 600px; }
+  article .category {
+    margin-bottom: 1rem; }
+  article h2 {
+    margin-bottom: 1rem; }
+  article .blurb {
+    margin-bottom: 2rem; }
+  article p {
+    margin-bottom: 1rem; }
+  article blockquote {
+    font-style: italic;
+    margin-bottom: 1rem; }
+
+/*# sourceMappingURL=main.css.map */

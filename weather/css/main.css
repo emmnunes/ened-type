@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+  html body {
+    font-size: 1.6rem;
+    /* 14px */ }
+    html body header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+      width: 100%;
+      padding: 1rem; }
+    html body .today {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      padding: 1rem;
+      transform: translate(-50%, -50%); }
+    html body .week {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center; }
+      html body .week article {
+        width: calc(100% / 6);
+        padding: 1rem;
+        float: left; }
+
+header .app-name {
+  padding: 1rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=main.css.map */

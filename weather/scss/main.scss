@@ -1,0 +1,49 @@
+@import "defaults";
+
+// Cabeçalho
+header {
+
+  .app-name {
+    padding: 1rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2rem; // = 20px
+    font-weight: 600; // = Bold
+    text-transform: uppercase;
+  }
+
+}
+
+// Dia actual
+.today {
+
+  // Temperatura
+  .temperature {
+
+  }
+
+  // Condições Meteorológicas
+  .conditions {
+
+  }
+
+}
+
+// Rodapé
+footer {
+
+  // Dias
+  article {
+
+    // Temperatura
+    .temperature {
+
+    }
+
+    // Condições Meteorológicas
+    .conditions {
+
+    }
+
+  }
+
+}

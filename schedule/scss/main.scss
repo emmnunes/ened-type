@@ -1,0 +1,61 @@
+@import "defaults";
+
+// Cabeçalho
+header {
+
+  .app-name {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2rem; // = 20px
+    font-weight: 600; // = Bold
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+}
+
+.schedule {
+  // Aviso de pré-inscrição
+  .notice {
+    margin-bottom: 2rem;
+  }
+
+  // Programa dia
+  article {
+    margin-bottom: 4rem;
+
+    // Data
+    h2 {
+      padding-bottom: 1rem;
+      border-bottom: 1px solid black;
+    }
+
+    // Lista de eventos (ul = unordered list)
+    ul {
+
+      // Evento (li = list item)
+      li {
+        padding: 1rem 0;
+        border-bottom: 1px solid black;
+
+        // Horário
+        .time {
+
+        }
+
+        // Descrição das actividades
+        .description {
+
+          // Cada actividade neste horário
+          .event {
+
+            // Descrição do evento
+            small {
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

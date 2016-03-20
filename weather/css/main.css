@@ -18,7 +18,6 @@ html {
       top: 50%;
       left: 50%;
       text-align: center;
-      padding: 1rem;
       transform: translate(-50%, -50%); }
     html body .week {
       position: absolute;
@@ -28,7 +27,6 @@ html {
       text-align: center; }
       html body .week article {
         width: calc(100% / 6);
-        padding: 1rem;
         float: left; }
 
 header .app-name {

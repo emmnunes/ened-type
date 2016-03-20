@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  body {
+    font-size: 1.6rem; /* 14px */
+
+    padding: 2rem 6rem;
+
+    header {
+    }
+
+    .schedule {
+
+      article {
+
+        ul {
+          width: 100%;
+
+          li {
+
+            &:after {
+              content: "";
+              display: block;
+              clear: both;
+            }
+
+            .time {
+              width: 120px;
+              float: left;
+            }
+
+            .description {
+              width: calc(100% - 120px);
+              float: right;
+            }
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+}

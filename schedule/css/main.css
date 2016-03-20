@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+  html body {
+    font-size: 1.6rem;
+    /* 14px */
+    padding: 2rem 6rem; }
+    html body .schedule article ul {
+      width: 100%; }
+      html body .schedule article ul li:after {
+        content: "";
+        display: block;
+        clear: both; }
+      html body .schedule article ul li .time {
+        width: 120px;
+        float: left; }
+      html body .schedule article ul li .description {
+        width: calc(100% - 120px);
+        float: right; }
+
+header .app-name {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem; }
+
+.schedule .notice {
+  margin-bottom: 2rem; }
+.schedule article {
+  margin-bottom: 4rem; }
+  .schedule article h2 {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black; }
+  .schedule article ul li {
+    padding: 1rem 0;
+    border-bottom: 1px solid black; }
+
+/*# sourceMappingURL=main.css.map */
